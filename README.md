@@ -27,16 +27,19 @@ A  Python CLI tool to capture and optionally crack WPA/WPA2 handshakes using Kal
    ```bash
    git clone https://github.com/yourusername/wifighter.git
    cd wifighter
+   ```
 2. Make the script executable
   ```bash
   chmod +x wifighter.py
-```
+  ```
 3. Install Python dependencies
    ```bash
     chmod +x wifighter.py
+   ```
 4. Execute
    ```bash
    sudo ./wifighter.py
+   ```
 
    
 
