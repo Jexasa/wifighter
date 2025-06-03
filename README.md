@@ -14,8 +14,8 @@ A  Python CLI tool created with `argparse` to capture and optionally crack WPA/W
 - **Colored Output**: Red (errors), Green (success), Blue (informational), Yellow (warnings).
 
 ## Prerequisites
-- **OS**: Any Linux distro with `aircrack-ng` installed.
-- **Hardware**: Wi-Fi adapter supporting monitor mode and packet injection (e.g., Alfa AWUS036NHA).
+- **OS**: Any distro with `aircrack-ng` installed.
+- **Hardware**: Wi-Fi adapter supporting monitor mode.
 - **Software**:
   - `aircrack-ng` (`sudo apt install aircrack-ng`)
   - `hashcat` (`sudo apt install hashcat`)
@@ -24,7 +24,7 @@ A  Python CLI tool created with `argparse` to capture and optionally crack WPA/W
 
 ## Installation
 1. Clone the repository:
-     `git clone https://github.com/yourusername/wifighter.git`
+     `git clone https://github.com/Jexasa/wifighter.git`
      `cd wifighter`
 2. Make the script executable
   `chmod +x wifighter.py`
